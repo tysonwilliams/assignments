@@ -1,0 +1,24 @@
+div {
+    border: 0.5em solid white;
+    height: 10em;
+}
+
+.col-md-12 {
+    background-color: #F5C6D6;    
+}
+
+.col-md-3 {
+    background-color: #EE2E84;
+}
+
+.col-md-6 {
+    background-color: #85CFD8;
+}
+
+.col-md-9 {
+    background-color: #8DC63F;
+}
+
+#last-block {
+    background-color: #E76E34
+}

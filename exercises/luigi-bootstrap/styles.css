@@ -1,0 +1,58 @@
+div {
+    border: 0em solid white;
+    width: 100%;
+}
+
+.row1 {
+    background-color: yellow;
+    height:5em;
+}
+
+.row2 {
+    background-color: red;
+    height: 16em;
+}
+
+.row3 {
+    background-color: white;
+    height: 10em;
+}
+
+.row4 {
+    background-color: yellow;
+    height: 3.5em;
+    margin-top: 0.5em;
+}
+
+.center-block {
+    transform: translateY(5%);
+    height: 14em;
+}
+
+.mushroom-image {
+    transform: translateY(5%);
+    height: 3.2em;
+    margin-left: 97%;
+}
+
+@font-face {
+    font-family: mario;
+    src: url("SuperMario256.ttf");
+}
+
+h1 {
+    font-family: mario;
+    color: red;
+    margin-left: 5%;
+}
+
+h2 {
+    font-family: mario;
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: red;
+    text-align: center;
+}

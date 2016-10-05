@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mario Pest Control</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+   
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-12" align="center"><header>Mario's Pest Control</header></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-4 col-md-4" align="center"><img src="http://vignette2.wikia.nocookie.net/deathbattle/images/8/8b/Run_Goomba_Run_Art.png/revision/latest?cb=20140504203427" class="img-responsive" type="button" onclick="gFunction()"></div>
+            <div class="col-xs-4 col-md-4" align="center"><img src="http://vignette3.wikia.nocookie.net/nintendo/images/8/86/Bob-omb_(MKWii).png/revision/latest?cb=20120819225302&path-prefix=en" class="img-responsive" type="button" onclick="bFunction()"></div>
+            <div class="col-xs-4 col-md-4" align="center"><img src="http://vignette4.wikia.nocookie.net/fantendo/images/6/6f/Cheep-Cheep_MK7.png/revision/20111015163539" class="img-responsive" type="button" onclick="cFunction()"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-4 col-md-4" align="center"><h2>Goombas</h2></div>
+            <div class="col-xs-4 col-md-4" align="center"><h2>Bob-ombs</h2></div>
+            <div class="col-xs-4 col-md-4" align="center"><h2>Cheep-cheeps</h2></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-2 col-md-2"><h3>Caught:</h3></div>
+            <div class="col-xs-2 col-md-2"><h3 id="goombasCaught">0</h3></div>
+            <div class="col-xs-2 col-md-2"><h3>Caught:</h3></div>
+            <div class="col-xs-2 col-md-2"><h3 id="bob-ombsCaught">0</h3></div>
+            <div class="col-xs-2 col-md-2"><h3>Caught:</h3></div>
+            <div class="col-xs-2 col-md-2"><h3 id="cheep-cheepsCaught">0</h3></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-2 col-md-2"><h3>Price:</h3></div>
+            <div class="col-xs-2 col-md-2"><h3 id="goombasPrice">0</h3></div>
+            <div class="col-xs-2 col-md-2"><h3>Price:</h3></div>
+            <div class="col-xs-2 col-md-2"><h3 id="bob-ombsPrice">0</h3></div>
+            <div class="col-xs-2 col-md-2"><h3>Price:</h3></div>
+            <div class="col-xs-2 col-md-2"><h3 id="cheep-cheepsPrice">0</h3></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-6 col-md-6" align="center"><h1 onclick="getTotalPrice()">Total Price:</h1></div>
+            <div class="col-xs-6 col-md-6" align="center"><h1 id="totalPrice">0</h1></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-12" align="center">
+                <footer>Email: mario@mariopestcontrol.com Website: mariopestcontrol.com Address: 500 Mario Lane, Mario City, Mushroom Kingdom.</footer>
+            </div>
+        </div>
+    
+    </div>
+
+<script src='app.js'></script>
+</body>
+</html>

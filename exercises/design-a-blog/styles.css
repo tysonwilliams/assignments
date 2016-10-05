@@ -1,0 +1,61 @@
+html {
+    background: url(http://vschool.io/static/img/snow.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: fixed;
+}
+
+li a {
+    display: block;
+    width: 4em;
+    float: right;
+    text-decoration: none;
+}
+
+h1 {
+    display: block;
+    margin:auto;
+    width: 90%;
+    font-size: 12em;
+    float: right;
+    
+}
+
+article {
+    width: 90%;
+    float: right;
+    color: darkblue;
+    margin-bottom: 2em;
+}
+
+p {
+    display: inline;
+    color: black;
+    float: right;
+    width: 77%;
+}
+
+header {
+    color: green;
+    display: block;
+}
+
+time {
+    color: green;
+    display: block;
+}
+
+img {
+    height: 10em;
+    display: inline;
+}
+

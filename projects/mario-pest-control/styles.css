@@ -1,0 +1,25 @@
+header {
+    font-size: 5em;
+    margin: 1em;
+}
+
+img {
+    background-color: darkred;
+    border-radius: 10%;
+    height: 20em;
+    width: 20em;
+}
+
+.img-responsive {
+    height: 20em;
+    width: 20em;
+}
+
+h1 {
+    padding: 1em;
+    font-size: 3em;
+}
+
+footer {
+    margin: 6em;
+}

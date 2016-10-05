@@ -1,0 +1,18 @@
+h1 {
+    color:darkblue
+}
+
+p {
+    display: inline-block;
+    border-style: double;
+    padding: 50px;
+}
+#fill {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.6
+}

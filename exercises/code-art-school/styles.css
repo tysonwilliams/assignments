@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    color: black
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.welcome {
+    color: darkblue;
+    text-align: center;
+    font-size: 64px;
+}
+
+.code-photo {
+    max-width: 47%;
+    height: auto;
+    float: left;
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.list {
+    clear: both;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.fake-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    max-width: 48%;
+    font-size: 36px;
+    padding: 10px;
+    float: right;
+}

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center
+}
+
+button {
+    text-align: center;
+    background-color: lightblue
+}
+
+p {
+    text-align: center
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
+
+figure {
+    text-align: center
+}
+
+footer {
+    text-align: center
+}
