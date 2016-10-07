@@ -1,0 +1,1 @@
+The exercises folder is a collection of the exercises we completed in class at V School. The purpose of exercises is to review and practice past material and prime us for learning new topics. Exercises are typically problem-solving puzzles or projects, and are usually completed within about 2 hours or less.

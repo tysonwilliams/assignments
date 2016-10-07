@@ -11,6 +11,10 @@ var employee1 = new Employee("john doe", "dev1", "50k");
 var employee2 = new Employee("sarah doe", "dev2", "60k");
 var employee3 = new Employee("ryan doe", "dev0", "20k", "Part Time");
 
-console.log(employee1);
-console.log(employee2);
-console.log(employee3);
+//console.log(employee1);
+//console.log(employee2);
+//console.log(employee3);
+//
+//employees.push(employee1, employee2, employee3);
+
+console.log(employees);

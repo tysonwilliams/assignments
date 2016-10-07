@@ -6,16 +6,19 @@ var totalPrice = 0;
 function gFunction() {
     var goombaAdd = document.getElementById("goombasCaught").innerHTML = enemy1++;
     var goombaPrice = document.getElementById("goombasPrice").innerHTML = goombaAdd * 5;
+    getTotalPrice();
 };
 
 function bFunction() {
     var bobombAdd = document.getElementById("bob-ombsCaught").innerHTML = enemy2++;
     var bobombPrice = document.getElementById("bob-ombsPrice").innerHTML = bobombAdd * 7;
+    getTotalPrice();
 };
 
 function cFunction() {
     var cheepcheepAdd = document.getElementById("cheep-cheepsCaught").innerHTML = enemy3++;   
     var cheepCheepPrice = document.getElementById("cheep-cheepsPrice").innerHTML = cheepcheepAdd * 11;
+    getTotalPrice();
 };
 
 function getTotalPrice() {
