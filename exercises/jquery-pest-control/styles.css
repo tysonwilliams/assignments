@@ -6,13 +6,6 @@ header {
 img {
     background-color: darkred;
     border-radius: 10%;
-    height: 20em;
-    width: 20em;
-}
-
-.img-responsive {
-    height: 20em;
-    width: 20em;
 }
 
 h1 {
@@ -22,4 +15,18 @@ h1 {
 
 footer {
     margin: 6em;
+}
+
+#background {
+    background-color: darkblue;
+}
+
+.body2 {
+    background-color: #000000;
+    color: #FF0000;
+}
+
+.button2 {
+    background-color: black;
+    border: 1em solid red;
 }

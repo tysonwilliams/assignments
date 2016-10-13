@@ -1,0 +1,32 @@
+#body {
+    background-image: url("http://cdn.wallpapersafari.com/15/20/itGDyZ.jpg")
+}
+
+#pokemon {
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    color: yellow;
+}
+
+.card {
+    background-color: azure;
+    width: 25%;
+    margin: .5em;
+    display: inline-block;
+    padding: 1em;
+}
+
+h2 {
+    color: dodgerblue;
+}
+
+h4 {
+    color: red;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 20em;
+}

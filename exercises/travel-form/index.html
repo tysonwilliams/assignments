@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Form</title>
+    <link href="styles.css" type="text/css" ref="stylesheet">
+</head>
+<body>
+    <form>
+    <div>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" value="" />
+    </div>
+    <div>
+        <label for="lname">Last name:</label>
+        <input type="lname" id="lname" value="" />
+    </div>
+    <br>
+    <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" value="user_age" />
+    </div>
+    <br>
+    <div id="gender">Gender<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+    </div>
+    <br>
+    <div>
+        Destination
+        <select>
+            <option value="Provo">Provo</option>
+            <option value="SLC">SLC</option>
+            <option value="Ogden">Ogden</option>
+        </select>
+    </div>
+    <br>
+    <div>Dietary Restrictions:
+        <input type="checkbox" name="dietary" value="Vegetarian">Vegetarian
+        <input type="checkbox" name="dietary" value="Kosher">Kosher
+        <input type="checkbox" name="dietary" value="Lactose Free">Lactose Free
+    </div>
+    <br>
+    <br>
+    <div>
+        <button class="button">Submit</button>
+    </div>
+    </form>
+    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

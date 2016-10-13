@@ -1,0 +1,60 @@
+span {
+    font-family: cursive;
+}
+
+#sign-up {
+}
+
+button {
+    border-radius: 10%;
+    background-color: #eee;
+    padding: .5em;
+}
+
+#record {
+    background-image: url("images/note-taking-laptop.jpg");
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
+
+#progress {
+    background-image: url("images/Jumper.jpg");
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#rejoice {
+    background-image: url("images/cultureofvictory.jpg");
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#victorious-image {
+    background-image: url("images/snowvictory.jpg");
+    height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#rows2 {
+    height: 30em;
+}
+
+#contact-form {
+    margin-top: 5em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    background-color: #eee;
+    padding: 1em;
+}
