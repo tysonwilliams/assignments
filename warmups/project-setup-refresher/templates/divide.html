@@ -1,0 +1,14 @@
+<h1>Divide Page</h1>
+<!--<a href="/">Go back to the Home Page</a>-->
+<!--
+<a href="#/add">Go to the Add Page</a>
+<a href="#/mult">Go to the Multiply Page</a>
+-->
+<br><br>
+
+<div ng-controller="sumCtrl">
+    <input ng-model='num1' placeholder="Enter number 1" id="add">
+    <input ng-model="num2" placeholder="Enter number 2" id="add">
+    <button ng-click="addThem()" class="brn btn-warning">Add</button>
+    <label for="add">{{sum}}</label>
+</div>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>ng Basics</title>
+</head>
+<body ng-controller="mainCtrl">
+
+    <div ng-repeat="item in player.kills">
+        <h1>Player Kills</h1>
+        <br>
+        <h2>Handle: {{item.handle}}</h2>
+        <h3>Rank: {{item.rank}}</h3>
+        <h3>Clan: {{item.clan[0]}}, {{item.clan[1]}}, {{item.clan[2]}}</h3>
+        <br>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

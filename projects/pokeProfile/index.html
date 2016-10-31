@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="pokeApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PokeProfile</title>
+</head>
+<body ng-controller="pokeCtrl">
+    <div class="container">
+        <div class="row" align="center">
+            <h2 class="col-xs-12" id="enter-poke-number">Enter Pokemon Number:</h2>
+            <input ng-model="something">
+            <div>
+                <input type="button" value="Get Pokemon Info" ng-click="getPokemon(something)">
+            </div>
+            <div>
+                <h1>{{poke.name}}</h1>
+            </div>
+            <div>
+                <h2>Attack: {{poke.attackPower}}</h2>
+            </div>
+            <div>
+                <h2>Abilities: {{poke.ability1 + " & " + poke.ability2}}</h2>
+            </div>
+            <div>
+                <img ng-src="{{poke.image}}" alt="Pokemon Image">
+                <br>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

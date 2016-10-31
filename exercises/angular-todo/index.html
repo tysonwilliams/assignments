@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Angular Todo</title>
+</head>
+<body ng-controller="mainCtrl">
+    
+    <div class="container">
+        <div class="row">
+            <header class="col-xs-12">Angular To Do</header>
+            <input class="col-xs-12" type="text" placeholder="Type in new todo" ng-model="todo.title">
+            <input class="col-xs-12" type="text" placeholder="Type or paste url of image" ng-model="todo.imgUrl">
+            <input class="col-xs-12" type="number" placeholder="Type in price" ng-model="todo.price">
+            <input class="col-xs-12" type="text" placeholder="Type in description" ng-model="todo.description">
+            <input type="button" value="Add" class="col-xs-3" ng-click="newPost()">
+        </div>
+        
+        <div ng-repeat="item in todoList track by $index">
+            <h1>{{item.title}}</h1>
+            <img ng-src="{{item.imgUrl}}">
+            <h2>${{item.price}}</h2>
+            <h2>{{item.description}}</h2>
+            <input type="button" value="Edit" class="col-xs-3" ng-click="editPost(item._id, $index)">
+            <input type="button" value="Save" class="col-xs-3" ng-click="savePost(item._id, $index)">
+            <input type="button" value="Delete" class="col-xs-3" ng-click="deletePost(item._id, $index)">
+            <br>
+        </div>
+    </div>
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>   
+<script src="app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,14 @@
+.container .row {
+    text-align: center;
+    margin: 1vh;
+}
+
+.container .row input {
+    margin: .25vh;
+    padding: 1vh;
+    background-color: aliceblue;
+}
+
+#new-todo {
+    background-color: whitesmoke;
+}

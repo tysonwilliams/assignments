@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Angular Name Badge</title>
+</head>
+<body ng-controller="mainCtrl">
+    
+    <div class="container">
+    <form class="form-horizontal">
+       <div class="row col-sm-6">
+            <input class="form-control" placeholder="first name" id="cols" ng-model="badge.fName">
+            <input class="form-control" placeholder="email" id="cols" ng-model="badge.email">
+            <input class="form-control" placeholder="phone" id="cols" ng-model="badge.phone">
+        </div>
+        <div class="row col-sm-6">
+            <input class="form-control" placeholder="last name" id="cols" ng-model="badge.lName">
+            <input class="form-control" placeholder="place of birth" id="cols" ng-model="badge.birthPlace">
+            <input class="form-control" placeholder="favorite food" id="cols" ng-model="badge.favFood">
+        </div>
+        <div class="row">
+            <textarea class="form-control" rows="6" placeholder="Tell us about yourself" id="textarea" ng-model="badge.about"></textarea>
+        </div>
+        <div class="row">
+            <button class="form-control col-sm-12" id="button" ng-click="createBadge()">Submit</button>
+        </div>
+    </form>
+    </div>
+    
+    <div class="container" ng-repeat="item in badgeArray track by $index">
+        <h2 class="col-sm-12" id="badge">Badge:</h2>
+        <div class="row col-sm-6">
+            <h3>Name: {{item.fName}} {{item.lName}}</h3>
+            <h3>Place of birth: {{item.birthPlace}}</h3>
+            <h3>Email: {{item.email}}</h3>
+        </div>
+        <div class="row col-sm-6">
+            <h3>Phone: {{item.phone}}</h3>
+            <h3>Favorite food: {{item.favFood}}</h3>
+        </div>
+        <div class="row col-sm-12" id="textarea2">
+            <textarea class="form-control" rows="10" id="textarea">{{item.about}}</textarea>
+        </div>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="app.js"></script>    
+</body>
+</html>

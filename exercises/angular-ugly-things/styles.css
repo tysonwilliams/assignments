@@ -1,0 +1,17 @@
+#row1 {
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+input {
+    margin: 1vh;
+}
+
+button {
+    margin-bottom: 1vh;
+}
+
+#row2 {
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+body { 
+  background: url(https://www.walldevil.com/wallpapers/a79/wallpaper-anime-cartoon-pikachu-sleep-pokemon-widescreen-wallpapers.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#enter-poke-number {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+input {
+    width: 35%;
+    height: 4vh;
+    margin-bottom: 2vh;
+}
+
+h1 {
+    margin-bottom: 5vh;
+}
+
+img {
+    margin-top: 4vh;
+}

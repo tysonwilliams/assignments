@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Star Wars Opening Credits</title>
+</head>
+<body ng-controller="mainCtrl">
+
+    <div id="titles">
+        <div id="titlecontent">
+            <h1>Stars Wars - V School</h1>
+            <br>
+	        <p>{{credits}}</p>
+        </div>
+    </div>
+
+    <audio autoplay>
+        <source src="http://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg"/>
+        <source src="http://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg"/>
+    </audio>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

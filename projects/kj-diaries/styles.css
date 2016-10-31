@@ -1,0 +1,313 @@
+.container-fluid {
+    background-color: white;
+    height: 9.5em;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 1.25em;
+}
+
+.dropbtn {
+    background-color: white;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 2em;
+    font-weight: 300;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-weight: 300;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border-bottom: .05em solid lightgray;
+}
+
+.dropdown-content a:hover {
+    background-color: bisque;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+    z-index: 9999;
+    background-color: bisque;
+}
+
+.form-control {
+    display: inline-block;
+    margin-top: .25em;
+}
+
+#search-bar {
+    padding-left: 16em;
+    margin-top: .5em;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: .7em;
+    pointer-events: none;
+}
+
+.right-addon .glyphicon {
+    right: 0vh;
+}
+
+.navbar.navbar-default {
+    margin-bottom: -3vh;
+}
+
+.email-bar {
+    background-color: bisque;
+    height: 5em;
+    padding-top: 1em;
+}
+
+.inner-addon2 {
+    position: relative;
+}
+
+.inner-addon2 .glyphicon {
+    position: absolute;
+    padding: 1em;
+    padding-right: 2em;
+    pointer-events: none;
+}
+
+.right-addon2 .glyphicon {
+    right: 0px;
+}
+
+.main-content {}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#row1 {
+    margin-top: 6vh;
+}
+
+.image-date {
+    color: grey;
+    font-weight: lighter;
+}
+
+.image-date {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-date:before,
+.image-date:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 15%;
+    height: .1vh;
+    content: '\a0';
+    background-color: lightgray;
+}
+
+.image-date:before {
+    margin-left: -15%;
+}
+
+.image-description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    font-family: Bebas Neue Regular, sans-serif;
+    letter-spacing: .2em;
+    line-height: .9em;
+    color: black;
+    display: inline-block;
+    transform: scale(1, 1.5);
+    /* W3C */
+    -webkit-transform: scale(.8, 1.2);
+    /* Safari and Chrome */
+    -moz-transform: scale(2, 3);
+    /* Firefox */
+    -ms-transform: scale(2, 3);
+    /* IE 9 */
+    -o-transform: scale(2, 3);
+    /* Opera */
+}
+
+.image-tag {
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 2vh;
+}
+
+#image-paragraph {
+    text-align: left;
+    color: black;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    font-weight: 300;
+}
+
+#read-more {
+    border: .1em solid lightgray;
+    margin-bottom: 4vh;
+    color: lightgray;
+    padding: 1vh;
+    width: 30%;
+}
+
+#read-more:hover {
+    background-color: darkgray;
+    color: white;
+    transition-delay: 125ms;
+    cursor: pointer;
+}
+
+#image-social i {
+    font-size: 2.5em;
+    color: bisque;
+    margin-right: 2.5vh;
+    margin-left: -.5vh;
+}
+
+#image-social i:hover {
+    cursor: pointer;
+}
+
+#comments {
+    font-weight: 300;
+}
+
+#related {
+    border-top: .1em solid lightgray;
+    border-bottom: .1em solid lightgray;
+    margin-bottom: 2vh;
+}
+
+span {
+    background: #fff;
+    padding: 0 15px;
+}
+
+#related p {
+    margin-top: -2vh;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+#related img {
+    margin-top: -.8em;
+    margin-bottom: .7em;
+}
+
+.social {
+    border: 1px solid lightgray;
+    margin-bottom: 4vh;
+}
+
+.social p {
+    margin-top: -2vh;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+.fa {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 2vh;
+}
+
+#first-to-know {
+    color: black;
+    font-weight: 300;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+}
+
+#subscribe-box-email {
+    color: gray;
+    text-align: left;
+    margin-left: 1.5vh;
+}
+
+#email-second {
+    border: none;
+}
+
+#wishlist-image {
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#instagram-title {
+    margin: 2vh;
+    font-weight: 300;
+    font-size: 2vh;
+}
+
+#insta-collage {}
+
+#insta-collage img {
+    margin: -.3vh;
+    width: 10%;
+}
+
+#vschool {
+    color: white;
+    text-decoration: underline;
+    text-emphasis:
+}
+
+.image-description a {
+    color: black;
+}
+
+.image-description a:hover {
+    color: bisque;
+    text-decoration: none;
+}
+
+.hover-bisque:hover {
+    cursor: pointer;
+    color: bisque;
+}
+
+footer {
+    background-color: black;
+    height: 30px;
+}
+
+footer p {
+/*
+    margin-top: 10vh;
+    margin-bottom: -2vh;
+    margin-left: -2.19vh;
+    margin-right: -2.19vh;
+*/
+    padding: 1.20vh;
+    color: lightgray;
+    font-size: .75em;
+    font-weight: 300;
+}

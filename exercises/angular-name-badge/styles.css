@@ -1,0 +1,34 @@
+.container {
+    border: 1px solid black;
+    margin-top: 2vh;
+}
+
+input {
+    margin: 1vh;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+#textarea {
+    width: 92.5%;
+    margin-left: 2.4vh;
+}
+
+#button {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 1vh;
+    margin-bottom: 1vh
+}
+
+#badge {
+    background-color: grey;
+    color: white;
+}
+
+#textarea2 {
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+}

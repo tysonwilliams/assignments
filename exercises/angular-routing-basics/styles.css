@@ -1,0 +1,25 @@
+navbar a {
+    padding: 1vh;
+    font-size: 2.75vh;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p, ul {
+    color: blue;
+}
+
+img {
+    width: 100%;
+}

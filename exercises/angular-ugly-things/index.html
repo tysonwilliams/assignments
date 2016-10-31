@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ugly Things</title>
+</head>
+<body ng-controller="mainCtrl">
+   
+    <div class="container">
+       <form class="form-horizontal">
+        <div class="row" id="row1">
+            <div class="col-sm-12">
+            <input class="form-control" placeholder="Title" ng-model="ugly.title">
+            <input class="form-control" placeholder="Description" ng-model="ugly.description">
+            <input class="form-control" placeholder="Img URL" ng-model="ugly.imgsrc">
+            </div>
+            <div class="col-sm-12">
+                <button ng-click="uglyFunction()">Submit</button>
+            </div>
+        </div>
+        <div class="row" id="row2" ng-repeat="input in uglyArray track by $index">
+            <div class="col-sm-12">
+                <h2>{{input.title}}</h2>
+                <h3>{{input.description}}</h3>
+                <img ng-src="{{input.imgsrc}}" alt="">
+                <p>{{$index}}</p>
+            </div>
+        </div>
+       </form>
+    </div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
